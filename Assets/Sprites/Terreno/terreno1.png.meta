@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-guid: 84dcbfe7e5db8f64d84c15f6249e5c7e
-timeCreated: 1446996109
+guid: c1ae55fc52df6d44bbb6251f06a9563a
+timeCreated: 1446994292
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
-    21300000: final5_0
-    21300002: final5_1
-    21300004: final5_2
+    21300000: terreno1_0
+    21300002: terreno1_1
+    21300004: terreno1_2
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -52,33 +52,33 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: final5_0
+    - name: terreno1_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 738
-        width: 642
-        height: 265
+        x: 0
+        y: 757
+        width: 1024
+        height: 252
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: final5_1
+    - name: terreno1_1
       rect:
         serializedVersion: 2
-        x: 647
-        y: 702
-        width: 377
-        height: 317
+        x: 0
+        y: 477
+        width: 1024
+        height: 259
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: final5_2
+    - name: terreno1_2
       rect:
         serializedVersion: 2
-        x: 3
-        y: 0
-        width: 846
-        height: 701
+        x: 0
+        y: 196
+        width: 1024
+        height: 263
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

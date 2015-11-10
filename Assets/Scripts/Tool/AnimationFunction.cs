@@ -17,6 +17,11 @@ public class AnimationFunction : MonoBehaviour {
 		anim = GetComponent<Animator>();
 	}
 
+	public void SetVolumen(float volumen)
+	{
+		if(gameObject.GetComponent<AudioSource>() != null)
+			audioS.volume = volumen;
+	}
 
 	// REPRODUCE UN SONDIDO
 	public void PlaySound(AudioClip audioclip)
