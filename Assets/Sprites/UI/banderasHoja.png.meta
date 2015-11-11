@@ -1,13 +1,16 @@
 fileFormatVersion: 2
-guid: 5cdccadbeb7060f46ab6054474f52602
-timeCreated: 1447214162
+guid: f8576f784769d8444b84409609d8d3d4
+timeCreated: 1447224134
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
-    21300000: guidoQuemandose
-    21300002: guido-menu-cabeza
-    21300004: guido-menu-cola
-    21300006: guido-menu-mano
+    21300000: hojaBritish
+    21300002: "hojaEspa\xF1ol"
+    21300004: banderasHoja_0
+    21300006: banderasHoja_1
+    21300008: banderasHoja_2
+    21300010: banderasHoja_3
+    21300012: banderasHoja_4
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -31,7 +34,7 @@ TextureImporter:
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
-  maxTextureSize: 1024
+  maxTextureSize: 512
   textureSettings:
     filterMode: -1
     aniso: 16
@@ -53,43 +56,53 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: guidoQuemandose
+    - name: banderasHoja_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 607
-        height: 749
+        x: 68
+        y: 332
+        width: 144
+        height: 144
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: guido-menu-cabeza
+    - name: banderasHoja_1
       rect:
         serializedVersion: 2
-        x: 647
-        y: 634
-        width: 377
-        height: 368
-      alignment: 9
-      pivot: {x: .1933406, y: .017267311}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: guido-menu-cola
-      rect:
-        serializedVersion: 2
-        x: 777
-        y: 15
-        width: 221
-        height: 358
+        x: 225
+        y: 332
+        width: 144
+        height: 144
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: guido-menu-mano
+    - name: banderasHoja_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 825
-        width: 139
-        height: 190
+        x: 68
+        y: 174
+        width: 144
+        height: 144
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: banderasHoja_3
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 174
+        width: 144
+        height: 144
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: banderasHoja_4
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 17
+        width: 149
+        height: 149
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}

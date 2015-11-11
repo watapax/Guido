@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 5cdccadbeb7060f46ab6054474f52602
-timeCreated: 1447214162
+guid: 3b2fbc9d9224e1e478c554191ee1a5f9
+timeCreated: 1447213359
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
-    21300000: guidoQuemandose
-    21300002: guido-menu-cabeza
-    21300004: guido-menu-cola
-    21300006: guido-menu-mano
+    21300000: introMenu_0
+    21300002: introMenu_1
+    21300004: introMenu_2
+    21300006: "titulo-espa\xF1ol"
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -53,43 +53,43 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: guidoQuemandose
+    - name: introMenu_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 607
-        height: 749
+        x: 1
+        y: 724
+        width: 1020
+        height: 300
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: guido-menu-cabeza
+    - name: introMenu_1
       rect:
         serializedVersion: 2
-        x: 647
-        y: 634
-        width: 377
-        height: 368
-      alignment: 9
-      pivot: {x: .1933406, y: .017267311}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: guido-menu-cola
-      rect:
-        serializedVersion: 2
-        x: 777
-        y: 15
-        width: 221
-        height: 358
+        x: 4
+        y: 405
+        width: 1016
+        height: 304
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: guido-menu-mano
+    - name: introMenu_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 825
-        width: 139
-        height: 190
+        x: 3
+        y: 1
+        width: 454
+        height: 396
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "titulo-espa\xF1ol"
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 19
+        width: 318
+        height: 357
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
