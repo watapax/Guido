@@ -33,11 +33,11 @@ public class PreloadLevel : MonoBehaviour {
 		yield return async;
 	}
 
-//	void Update()
-//	{
-//		if(Input.GetKeyDown(KeyCode.Escape))
-//			Application.Quit();
-//
+	void Update()
+	{
+		if(Input.GetKeyDown(KeyCode.Escape))
+			Application.Quit();
+
 //		if(puedeCargar)
 //		{
 //			if(async != null && async.isDone)
@@ -45,6 +45,6 @@ public class PreloadLevel : MonoBehaviour {
 //				print ("peo");
 //			}
 //		}
-//	}
+	}
 
 }
