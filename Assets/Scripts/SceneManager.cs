@@ -5,6 +5,14 @@ public class SceneManager : MonoBehaviour {
 
 	public static SceneManager instance;
 
+	[HideInInspector] public int escena;
+
+	public void Escena(int index)
+	{
+		escena = index;
+	}
+
+
 	void Awake()
 	{
 		DontDestroyOnLoad(this);

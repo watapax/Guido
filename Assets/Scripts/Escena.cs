@@ -10,6 +10,13 @@ public class Escena : MonoBehaviour {
 	public MusicManager.ListaCanciones cancion;
 
 
+	public void ActivarMusica()
+	{
+		MusicManager.instance.ChequearCancion(cancion);
+		MusicManager.instance.reproduciendo = cancion;
+		MusicManager.instance.PlayMusic();
+	}
+
 
 	public void CambiarCancion()
 	{

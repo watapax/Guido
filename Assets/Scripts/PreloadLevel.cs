@@ -8,6 +8,9 @@ public class PreloadLevel : MonoBehaviour {
 	AsyncOperation async;
 	bool puedeCargar;
 
+	int indice = 0;
+
+
 	void Start()
 	{
 		//StartCoroutine(Preload());
@@ -20,10 +23,15 @@ public class PreloadLevel : MonoBehaviour {
 		async.allowSceneActivation = true;
 	}
 
-
-	public void LoadEscena(int index)
+	public void CargarPagina(int index)
 	{
-		Application.LoadLevel(index);
+		indice = index;
+	}
+
+
+	public void LoadEscena()
+	{
+		Application.LoadLevel(1);
 	}
 	IEnumerator Preload()
 	{

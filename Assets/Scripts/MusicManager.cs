@@ -13,7 +13,7 @@ public class MusicManager : MonoBehaviour {
 
 	AudioSource audioSourceEspecial;
 
-	ListaCanciones reproduciendo;
+	[HideInInspector] public ListaCanciones reproduciendo;
 
 
 	void Awake()
@@ -26,12 +26,20 @@ public class MusicManager : MonoBehaviour {
 		reproduciendo = ListaCanciones.intro;
 	}
 
-	void Start()
+	public void PlayMusic()
 	{
 		audioSource.clip = musicPlaying;
-		audioSource.PlayDelayed(1);
+		audioSource.PlayDelayed(0.5f);
 	}
 
+//	void Start()
+//	{
+//		//ChequearCancion(reproduciendo);
+//		audioSource.clip = musicPlaying;
+//		audioSource.PlayDelayed(1);
+//	}
+
+	
 	public void Transicion(ListaCanciones cancion)
 	{
 		if(cancion == reproduciendo)
@@ -41,7 +49,7 @@ public class MusicManager : MonoBehaviour {
 	}
 
 	#region Chequear Cancion
-	void ChequearCancion(ListaCanciones cancion)
+	public void ChequearCancion(ListaCanciones cancion)
 	{
 		switch(cancion)
 		{

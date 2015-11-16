@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour {
 
 	public List <GameObject> escenas = new List<GameObject>();
 
+	SceneManager sceneManager;
+
 	int sceneCount = 0;		// que escena se eta viendo
 	bool volver;			// se activa si se apreta el boton patras
 
@@ -21,13 +23,23 @@ public class GameManager : MonoBehaviour {
 		// Desactivar escenas
 		for(int i = 0; i < escenas.Count; i++){escenas[i].SetActive(false);}
 
-		ActivarEscena(CargarEscena.index);
+		sceneManager = (SceneManager) FindObjectOfType(typeof(SceneManager));
+
+		//ActivarEscena(CargarEscena.index);
+
+	}
+
+	void Start()
+	{
+		ActivarEscena(sceneManager.escena);
 	}
 
 	// Activa una escena en particular
 	void ActivarEscena(int _index)
 	{
 		escenas[_index].SetActive(true);
+		escenas[_index].GetComponent<Escena>().ActivarMusica();
+		sceneCount = _index;
 	}
 
 
