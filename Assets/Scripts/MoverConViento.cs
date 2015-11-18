@@ -10,15 +10,10 @@ public class MoverConViento : MonoBehaviour {
 	void Awake()
 	{
 		randomSpeed = Random.Range(0.05f , 0.035f);
-		foreach(Transform ta in transform)
-		{
-			t = ta;
-		}
-		foreach(Transform ta in t)
-		{
-			Vector2 screenPos = Camera.main.WorldToScreenPoint(ta.position) * -1;
-			ta.gameObject.GetComponent<SpriteRenderer>().sortingOrder = (int)screenPos.y; 
-		}
+
+		t = GetComponentInChildren<SpriteRenderer>().gameObject.transform.parent;
+		Vector2 screenPos = Camera.main.WorldToScreenPoint( GetComponentInChildren<SpriteRenderer>().gameObject.transform.position) * -1;
+		GetComponentInChildren<SpriteRenderer>().sortingOrder = (int)screenPos.y;
 
 
 	}

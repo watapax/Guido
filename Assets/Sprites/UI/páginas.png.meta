@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: f21b6ee6fcc81f54dbcb7248f2e02bf4
-timeCreated: 1447394101
+timeCreated: 1447825138
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -28,6 +28,7 @@ TextureImporter:
     21300042: "p\xE1ginas_21"
     21300044: "p\xE1ginas_22"
     21300046: "p\xE1ginas_23"
+    21300048: "p\xE1ginas_24"
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -81,7 +82,7 @@ TextureImporter:
         width: 164
         height: 171
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: "p\xE1ginas_1"
       rect:
@@ -91,7 +92,7 @@ TextureImporter:
         width: 164
         height: 171
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: "p\xE1ginas_2"
       rect:
@@ -101,7 +102,7 @@ TextureImporter:
         width: 164
         height: 171
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: "p\xE1ginas_3"
       rect:
@@ -111,7 +112,7 @@ TextureImporter:
         width: 164
         height: 171
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: "p\xE1ginas_4"
       rect:
@@ -121,7 +122,7 @@ TextureImporter:
         width: 164
         height: 171
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: "p\xE1ginas_5"
       rect:
@@ -131,7 +132,7 @@ TextureImporter:
         width: 164
         height: 171
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: "p\xE1ginas_6"
       rect:
@@ -141,7 +142,7 @@ TextureImporter:
         width: 164
         height: 171
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: "p\xE1ginas_7"
       rect:
@@ -151,7 +152,7 @@ TextureImporter:
         width: 164
         height: 171
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: "p\xE1ginas_8"
       rect:
@@ -161,7 +162,7 @@ TextureImporter:
         width: 164
         height: 171
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: "p\xE1ginas_9"
       rect:
@@ -171,7 +172,7 @@ TextureImporter:
         width: 164
         height: 171
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: "p\xE1ginas_10"
       rect:
@@ -181,7 +182,7 @@ TextureImporter:
         width: 164
         height: 171
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: "p\xE1ginas_11"
       rect:
@@ -191,7 +192,7 @@ TextureImporter:
         width: 164
         height: 171
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: "p\xE1ginas_12"
       rect:
@@ -201,7 +202,7 @@ TextureImporter:
         width: 164
         height: 171
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: "p\xE1ginas_13"
       rect:
@@ -211,7 +212,7 @@ TextureImporter:
         width: 164
         height: 171
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: "p\xE1ginas_14"
       rect:
@@ -221,7 +222,7 @@ TextureImporter:
         width: 164
         height: 171
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: "p\xE1ginas_15"
       rect:
@@ -231,7 +232,7 @@ TextureImporter:
         width: 164
         height: 171
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: "p\xE1ginas_16"
       rect:
@@ -241,7 +242,7 @@ TextureImporter:
         width: 164
         height: 171
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: "p\xE1ginas_17"
       rect:
@@ -251,7 +252,7 @@ TextureImporter:
         width: 164
         height: 171
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: "p\xE1ginas_18"
       rect:
@@ -261,7 +262,7 @@ TextureImporter:
         width: 164
         height: 171
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: "p\xE1ginas_19"
       rect:
@@ -271,7 +272,7 @@ TextureImporter:
         width: 164
         height: 171
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: "p\xE1ginas_20"
       rect:
@@ -281,7 +282,7 @@ TextureImporter:
         width: 164
         height: 171
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: "p\xE1ginas_21"
       rect:
@@ -291,7 +292,7 @@ TextureImporter:
         width: 164
         height: 171
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: "p\xE1ginas_22"
       rect:
@@ -301,7 +302,7 @@ TextureImporter:
         width: 164
         height: 171
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: "p\xE1ginas_23"
       rect:
@@ -311,7 +312,17 @@ TextureImporter:
         width: 164
         height: 171
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "p\xE1ginas_24"
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 96
+        width: 508
+        height: 165
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

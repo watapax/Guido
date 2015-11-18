@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 6a599571798d6b7478ef78bb5dac3881
-timeCreated: 1447396470
+timeCreated: 1447821894
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -31,6 +31,8 @@ TextureImporter:
     21300048: menu1-01_22
     21300050: menu1-01_23
     21300052: menu1-01_24
+    21300054: menu1-01_25
+    21300056: menu1-01_26
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -216,16 +218,6 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: menu1-01_14
-      rect:
-        serializedVersion: 2
-        x: 188
-        y: 655
-        width: 332
-        height: 103
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: menu1-01_15
       rect:
         serializedVersion: 2
@@ -343,6 +335,36 @@ TextureImporter:
         y: 145
         width: 49
         height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: menu1-01_14
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 714
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 23, y: 0, z: 23, w: 0}
+    - name: menu1-01_25
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 722
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: menu1-01_26
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 639
+        width: 127
+        height: 127
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}

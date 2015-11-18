@@ -8,7 +8,7 @@ public class Escena : MonoBehaviour {
 
 	public Transiciones transicionEntrada, transicionSalida, transicionVuelta;
 	public MusicManager.ListaCanciones cancion;
-
+	public Ayuda.Help ayuda;
 
 	public void ActivarMusica()
 	{
@@ -20,9 +20,13 @@ public class Escena : MonoBehaviour {
 
 	public void CambiarCancion()
 	{
-
 		MusicManager.instance.Transicion(cancion);
 	}
 
+
+	void OnEnable()
+	{
+		Ayuda.tipoAyuda = ayuda;
+	}
 
 }

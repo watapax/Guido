@@ -6,10 +6,21 @@ public class PrimeraEscena : MonoBehaviour {
 	public Transform fondo,piso,cerro;
 	public Transform  endpointCerro, endPointPiso;
 	public float velocidad;
+	public GameObject texto;
+	float tiempoTranscurrido;
 
+	void Awake()
+	{
+		texto.SetActive(false);
+	}
 
 	void FixedUpdate()
 	{
+		tiempoTranscurrido += Time.deltaTime;
+
+		if(tiempoTranscurrido > 6)
+			texto.SetActive(true);
+
 		// mover las capas
 		Mover(fondo, 0.1f);
 		Mover(cerro,0.5f);
@@ -33,6 +44,12 @@ public class PrimeraEscena : MonoBehaviour {
 			objeto.localPosition = new Vector2(0 , vOffset);
 	}
 
+
+	void OnDisable()
+	{
+		tiempoTranscurrido = 0;
+		texto.SetActive(false);
+	}
 
 
 }
