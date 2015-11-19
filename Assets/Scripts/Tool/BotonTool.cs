@@ -18,10 +18,15 @@ public class BotonTool : MonoBehaviour {
 	public void ToggleAudio()
 	{
 		toggle = !toggle;
+
+	}
+
+	void Update()
+	{
 		if(toggle)
-			textoBoton.text = "Musica On";
+			textoBoton.text = SeleccionarIdioma.instance.menuIdiomaFinal[3];
 		else
-			textoBoton.text = "Musica Off";
+			textoBoton.text = SeleccionarIdioma.instance.menuIdiomaFinal[2];
 	}
 
 	public void OpenUrl(string url)

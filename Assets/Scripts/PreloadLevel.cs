@@ -23,6 +23,12 @@ public class PreloadLevel : MonoBehaviour {
 		async.allowSceneActivation = true;
 	}
 
+	public void Escena(int index)
+	{
+		SceneManager.instance.escena = index;
+	}
+
+
 	public void CargarPagina(int index)
 	{
 		indice = index;

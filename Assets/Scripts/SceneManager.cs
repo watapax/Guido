@@ -7,16 +7,11 @@ public class SceneManager : MonoBehaviour {
 
 	[HideInInspector] public int escena;
 
-	public void Escena(int index)
-	{
-		escena = index;
-	}
-
-
+	
 	void Awake()
 	{
 		DontDestroyOnLoad(this);
-
+		
 		if(instance == null)
 		{
 			instance = this;
@@ -26,6 +21,14 @@ public class SceneManager : MonoBehaviour {
 			Destroy(gameObject);
 		}
 	}
+
+
+	public void Escena(int index)
+	{
+		escena = index;
+	}
+
+
 
 	public void CargarEscena(int indice)
 	{

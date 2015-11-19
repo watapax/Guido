@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour {
 		// Desactivar escenas
 		for(int i = 0; i < escenas.Count; i++){escenas[i].SetActive(false);}
 
-		sceneManager = (SceneManager) FindObjectOfType(typeof(SceneManager));
+		sceneManager = SceneManager.instance;
 
 		//ActivarEscena(CargarEscena.index);
 

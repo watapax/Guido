@@ -1,9 +1,11 @@
 fileFormatVersion: 2
 guid: dc95fd0111099fa4ba09199eb1eb45a5
-timeCreated: 1446992914
+timeCreated: 1447948580
 licenseType: Pro
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: escena1b_0
+    21300002: escena1b_1
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -48,7 +50,27 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: escena1b_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 648
+        height: 455
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: escena1b_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 477
+        width: 934
+        height: 545
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 

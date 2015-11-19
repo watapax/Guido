@@ -9,6 +9,9 @@ public class ObtenerIdioma : MonoBehaviour {
 	Text texto;
 	SeleccionarIdioma idioma;
 
+
+	public SeleccionarIdioma.TipoTexto tipoDeTexto;
+
 	void Start()
 	{
 		idioma = (SeleccionarIdioma) FindObjectOfType(typeof(SeleccionarIdioma));
@@ -19,7 +22,10 @@ public class ObtenerIdioma : MonoBehaviour {
 	{
 		//if(SeleccionarIdioma.instance != null)
 		//texto.text = SeleccionarIdioma.instance.idiomaFinal[indiceTexto];
-		texto.text = idioma.idiomaFinal[indiceTexto];
+		if(tipoDeTexto == SeleccionarIdioma.TipoTexto.textoMenu)
+			texto.text = idioma.menuIdiomaFinal[indiceTexto];
+		else if(tipoDeTexto == SeleccionarIdioma.TipoTexto.textoCuento)
+			texto.text = idioma.idiomaFinal[indiceTexto];
 	}
 
 }
