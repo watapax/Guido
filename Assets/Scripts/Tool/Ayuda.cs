@@ -6,49 +6,38 @@ public class Ayuda : MonoBehaviour {
 	public enum Help{nada, touch, drag, agitar, girar}
 	public GameObject touch, drag, girar, agitar;
 
-	public static Help tipoAyuda;
+	public Help tipoAyuda;
+
+
+	[HideInInspector] public GameObject ayudaObject;
 	Animator anim;
+
 
 	void Awake()
 	{
-		anim = GetComponent<Animator>();
 		touch.SetActive(false);
 		drag.SetActive(false);
 		girar.SetActive(false);
 		agitar.SetActive(false);
+
+		ayudaObject = drag	;
+
+		anim = GetComponent<Animator>();
 	}
 
 	public void Activar()
 	{
-		if(tipoAyuda == Help.nada)return;
-		else
+		if(ayudaObject != null)
 			anim.SetTrigger("in");
+		else
+			return;
+
 	}
 
 	public void ActivarAyuda()
 	{
-		switch(tipoAyuda)
-		{
-		case Help.nada:
-			return;
-			break;
-		case Help.touch:
-
-			touch.SetActive(true);
-			break;
-		case Help.drag:
-
-			drag.SetActive(true);
-			break;
-		case Help.agitar:
-
-			agitar.SetActive(true);
-			break;
-		case Help.girar:
-
-			girar.SetActive(true);
-			break;
-		}
+		print ("peo");
+		ayudaObject.SetActive(true);
 	}
 
 

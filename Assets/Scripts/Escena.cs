@@ -10,6 +10,13 @@ public class Escena : MonoBehaviour {
 	public MusicManager.ListaCanciones cancion;
 	public Ayuda.Help ayuda;
 
+	Ayuda ayudaClass;
+
+	void Awake()
+	{
+		ayudaClass = (Ayuda) FindObjectOfType(typeof(Ayuda));
+	}
+
 	public void ActivarMusica()
 	{
 		MusicManager.instance.ChequearCancion(cancion);
@@ -26,7 +33,29 @@ public class Escena : MonoBehaviour {
 
 	void OnEnable()
 	{
-		Ayuda.tipoAyuda = ayuda;
+		// activar Ayuda
+
+		switch(ayuda)
+		{
+		case Ayuda.Help.nada:
+			return;
+
+		case Ayuda.Help.touch:
+			ayudaClass.ayudaObject = ayudaClass.touch;
+			break;
+
+		case Ayuda.Help.drag:
+			ayudaClass.ayudaObject = ayudaClass.drag;
+			break;
+
+		case Ayuda.Help.agitar:
+			ayudaClass.ayudaObject = ayudaClass.agitar;
+			break;
+
+		case Ayuda.Help.girar:
+			ayudaClass.ayudaObject = ayudaClass.girar;
+			break;
+		}
 	}
 
 }
