@@ -20,7 +20,7 @@ public class Ayuda : MonoBehaviour {
 		girar.SetActive(false);
 		agitar.SetActive(false);
 
-		ayudaObject = drag	;
+
 
 		anim = GetComponent<Animator>();
 	}

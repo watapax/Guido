@@ -11,14 +11,14 @@ public class PreloadLevel : MonoBehaviour {
 	int indice = 0;
 
 
-	void Start()
+	public void Idioma(int index)
 	{
-		//StartCoroutine(Preload());
+		SeleccionarIdioma.instance.ElejirIdioma(index);
 	}
 
 	public void CargarEscena()
 	{
-		//menuAnim.SetTrigger(trigger);
+
 		puedeCargar = true;
 		async.allowSceneActivation = true;
 	}
@@ -39,13 +39,7 @@ public class PreloadLevel : MonoBehaviour {
 	{
 		Application.LoadLevel(1);
 	}
-	IEnumerator Preload()
-	{
-		async = Application.LoadLevelAsync(1);
-		async.allowSceneActivation = false;
 
-		yield return async;
-	}
 
 	void Update()
 	{
