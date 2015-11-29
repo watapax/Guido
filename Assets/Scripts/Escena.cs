@@ -6,7 +6,9 @@ public class Escena : MonoBehaviour {
 	public enum Transiciones{ Corte, FadeInBlanco, FadeOutBlanco, FadeInNegro, FadeOutNegro}
 	public enum ListaCanciones{ intro, arbolSinHojas, esperando, guidoTriste, incendio, devastacion, final};
 
+
 	public Transiciones transicionEntrada, transicionSalida, transicionVuelta;
+
 	public MusicManager.ListaCanciones cancion;
 	public Ayuda.Help ayuda;
 
@@ -16,6 +18,11 @@ public class Escena : MonoBehaviour {
 	{
 		ayudaClass = (Ayuda) FindObjectOfType(typeof(Ayuda));
 	}
+
+
+
+
+
 
 	public void ActivarMusica()
 	{
