@@ -29,9 +29,5 @@ public class BotonTool : MonoBehaviour {
 			textoBoton.text = SeleccionarIdioma.instance.menuIdiomaFinal[2];
 	}
 
-	public void OpenUrl(string url)
-	{
-		Application.OpenURL(url);
-	}
 
 }

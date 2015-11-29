@@ -23,8 +23,14 @@ public class MusicManager : MonoBehaviour {
 		audioSource = GetComponent<AudioSource>();
 		audioSource.clip = musicPlaying;
 		audioSource.playOnAwake = false;
-		reproduciendo = ListaCanciones.intro;
+		//reproduciendo = ListaCanciones.intro;
 	}
+
+//	void OnLevelWasLoaded(int level)
+//	{
+//		if(level == 1)
+//			PlayMusic();
+//	}
 
 	public void PlayMusic()
 	{

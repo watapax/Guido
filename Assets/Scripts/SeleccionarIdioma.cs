@@ -42,6 +42,8 @@ public class SeleccionarIdioma : MonoBehaviour {
 
 		CargarTextos();
 		ElejirIdioma(0); // idioma por defecto es español
+
+
 	}
 
 

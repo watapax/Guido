@@ -38,6 +38,7 @@ public class Escena : MonoBehaviour {
 		switch(ayuda)
 		{
 		case Ayuda.Help.nada:
+			ayudaClass.ayudaObject = null;
 			return;
 
 		case Ayuda.Help.touch:

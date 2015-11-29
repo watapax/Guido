@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 6a599571798d6b7478ef78bb5dac3881
-timeCreated: 1447821894
+timeCreated: 1448567021
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -33,6 +33,7 @@ TextureImporter:
     21300052: menu1-01_24
     21300054: menu1-01_25
     21300056: menu1-01_26
+    21300058: menu1-01_27
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -66,6 +67,7 @@ TextureImporter:
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
+  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
@@ -365,6 +367,16 @@ TextureImporter:
         y: 639
         width: 127
         height: 127
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: menu1-01_27
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 634
+        width: 81
+        height: 81
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}

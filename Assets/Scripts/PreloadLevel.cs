@@ -7,7 +7,7 @@ public class PreloadLevel : MonoBehaviour {
 
 	AsyncOperation async;
 	bool puedeCargar;
-
+	public int escena;
 	int indice = 0;
 
 
@@ -37,7 +37,7 @@ public class PreloadLevel : MonoBehaviour {
 
 	public void LoadEscena()
 	{
-		Application.LoadLevel(1);
+		SceneManager.instance.CargarEscena(escena);
 	}
 
 

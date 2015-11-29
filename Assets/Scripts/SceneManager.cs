@@ -6,7 +6,7 @@ public class SceneManager : MonoBehaviour {
 	public static SceneManager instance;
 
 	[HideInInspector] public int escena;
-
+	[HideInInspector] public bool firstTimeApp = true;
 	
 	void Awake()
 	{
@@ -32,6 +32,7 @@ public class SceneManager : MonoBehaviour {
 
 	public void CargarEscena(int indice)
 	{
+		firstTimeApp = false;
 		Application.LoadLevel(indice);
 	}
 
