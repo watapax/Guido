@@ -10,7 +10,7 @@ public class Ayuda : MonoBehaviour {
 
 
 	[HideInInspector] public GameObject ayudaObject;
-	Animator anim;
+
 
 
 	void Awake()
@@ -21,22 +21,28 @@ public class Ayuda : MonoBehaviour {
 		agitar.SetActive(false);
 
 
+		touch.GetComponent<Animator>().enabled = true;
+		drag.GetComponent<Animator>().enabled = true;
+		girar.GetComponent<Animator>().enabled = true;
+		agitar.GetComponent<Animator>().enabled = true;
 
-		anim = GetComponent<Animator>();
+
+
+
 	}
 
 	public void Activar()
 	{
 		if(ayudaObject != null)
-			anim.SetTrigger("in");
+			ActivarAyuda();
 		else
 			return;
 
 	}
 
-	public void ActivarAyuda()
+	void ActivarAyuda()
 	{
-		print ("peo");
+
 		ayudaObject.SetActive(true);
 	}
 

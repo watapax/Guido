@@ -3,6 +3,7 @@ using System.Collections;
 
 public class AudioTools : MonoBehaviour {
 
+
 	AudioSource audioSource;
 
 	void Awake()
@@ -12,12 +13,22 @@ public class AudioTools : MonoBehaviour {
 
 	void Start()
 	{
+
+
 		if(!SceneManager.instance.firstTimeApp)
-			audioSource.Play();
+			Play ();
 	}
 	public void ToggleMute()
 	{
 		audioSource.ToggleMutedAudio();
+	}
+
+
+
+	public void Play()
+	{
+
+		audioSource.Play();
 	}
 
 }

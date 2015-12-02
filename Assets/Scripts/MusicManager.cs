@@ -7,8 +7,8 @@ public class MusicManager : MonoBehaviour {
 	private AudioClip musicPlaying;
 
 	public float velocidadTransicion;
-	public AudioClip intro, arbolSinHojas, esperando, guidoTriste, incendio, devastacion, final;
-	public enum ListaCanciones{ intro, arbolSinHojas, esperando, guidoTriste, incendio, devastacion, final};
+	public AudioClip intro, arbolSinHojas, esperando, guidoTriste, incendio, devastacion, final, menuLoop;
+	public enum ListaCanciones{ intro, arbolSinHojas, esperando, guidoTriste, incendio, devastacion, final, menuLoop};
 	public static MusicManager instance;
 
 	AudioSource audioSourceEspecial;
@@ -85,6 +85,10 @@ public class MusicManager : MonoBehaviour {
 
 		case ListaCanciones.final:
 			musicPlaying = final;
+			break;
+
+		case ListaCanciones.menuLoop:
+			musicPlaying = menuLoop;
 			break;
 		}
 	}
