@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 6a599571798d6b7478ef78bb5dac3881
-timeCreated: 1448813438
+timeCreated: 1456429101
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -35,6 +35,8 @@ TextureImporter:
     21300056: menu1-01_26
     21300058: menu1-01_27
     21300060: menu1-01_28
+    21300062: subtitulo-portuges
+    21300064: subtitulo-japones
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -68,7 +70,6 @@ TextureImporter:
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
-  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
@@ -274,20 +275,20 @@ TextureImporter:
     - name: subtitulo-ingles
       rect:
         serializedVersion: 2
-        x: 631
-        y: 63
-        width: 393
-        height: 25
+        x: 672
+        y: 71
+        width: 348
+        height: 20
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: "subtitulo-espa\xF1ol"
       rect:
         serializedVersion: 2
-        x: 612
-        y: 94
-        width: 412
-        height: 28
+        x: 577
+        y: 96
+        width: 444
+        height: 20
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -388,6 +389,26 @@ TextureImporter:
         y: 124
         width: 102
         height: 81
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: subtitulo-portuges
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 42
+        width: 417
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: subtitulo-japones
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 1
+        width: 295
+        height: 39
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}

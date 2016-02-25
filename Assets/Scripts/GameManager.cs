@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class GameManager : MonoBehaviour {
 
 	public static GameManager instance;
-
+	public GameObject atras,adelante;
 	public List <GameObject> escenas = new List<GameObject>();
 
 	SceneManager sceneManager;
@@ -40,6 +40,12 @@ public class GameManager : MonoBehaviour {
 		escenas[_index].SetActive(true);
 		escenas[_index].GetComponent<Escena>().ActivarMusica();
 		sceneCount = _index;
+
+		if(_index > 0 && _index < escenas.Count - 1)
+		{
+			atras.SetActive(true);
+			adelante.SetActive(true);
+		}
 	}
 
 
